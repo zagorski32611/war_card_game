@@ -9,3 +9,14 @@
 /home/joe/Documents/netcore/cardwar/obj/Debug/netcoreapp2.2/cardwar.AssemblyInfo.cs
 /home/joe/Documents/netcore/cardwar/obj/Debug/netcoreapp2.2/cardwar.dll
 /home/joe/Documents/netcore/cardwar/obj/Debug/netcoreapp2.2/cardwar.pdb
+/home/joe/netcore/cardwar/bin/Debug/netcoreapp2.2/cardwar.deps.json
+/home/joe/netcore/cardwar/bin/Debug/netcoreapp2.2/cardwar.runtimeconfig.json
+/home/joe/netcore/cardwar/bin/Debug/netcoreapp2.2/cardwar.runtimeconfig.dev.json
+/home/joe/netcore/cardwar/bin/Debug/netcoreapp2.2/cardwar.dll
+/home/joe/netcore/cardwar/bin/Debug/netcoreapp2.2/cardwar.pdb
+/home/joe/netcore/cardwar/obj/Debug/netcoreapp2.2/cardwar.csprojAssemblyReference.cache
+/home/joe/netcore/cardwar/obj/Debug/netcoreapp2.2/cardwar.csproj.CoreCompileInputs.cache
+/home/joe/netcore/cardwar/obj/Debug/netcoreapp2.2/cardwar.AssemblyInfoInputs.cache
+/home/joe/netcore/cardwar/obj/Debug/netcoreapp2.2/cardwar.AssemblyInfo.cs
+/home/joe/netcore/cardwar/obj/Debug/netcoreapp2.2/cardwar.dll
+/home/joe/netcore/cardwar/obj/Debug/netcoreapp2.2/cardwar.pdb

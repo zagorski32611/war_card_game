@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/joe/Documents/netcore/cardwar/cardwar.csproj": {}
+    "/home/joe/netcore/cardwar/cardwar.csproj": {}
   },
   "projects": {
-    "/home/joe/Documents/netcore/cardwar/cardwar.csproj": {
+    "/home/joe/netcore/cardwar/cardwar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/joe/Documents/netcore/cardwar/cardwar.csproj",
+        "projectUniqueName": "/home/joe/netcore/cardwar/cardwar.csproj",
         "projectName": "cardwar",
-        "projectPath": "/home/joe/Documents/netcore/cardwar/cardwar.csproj",
+        "projectPath": "/home/joe/netcore/cardwar/cardwar.csproj",
         "packagesPath": "/home/joe/.nuget/packages/",
-        "outputPath": "/home/joe/Documents/netcore/cardwar/obj/",
+        "outputPath": "/home/joe/netcore/cardwar/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"

@@ -6,7 +6,8 @@ namespace cardwar
     class Card
     {
         public int Rank;
-        public string Suit; 
+        public string Suit;
+
         public Card(int rank, string suit)
         {
             Rank = rank;

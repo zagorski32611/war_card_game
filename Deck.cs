@@ -7,6 +7,7 @@ namespace cardwar
     class Deck
     {
         private Card[] cards;
+
         public List<Card> CreateDeck()
         {
             var deck = new List<Card>();
@@ -26,6 +27,5 @@ namespace cardwar
             }
             return deck;
         }
-        public IEnumerator<Deck> GetEnumerator() => (IEnumerator<Deck>)this;
     }
 }

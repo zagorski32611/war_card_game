@@ -8,8 +8,9 @@ namespace cardwar
 {
     class Program
     {
-        Deck deck = new Deck();
+        //Deck deck = new Deck();
         Player player = new Player();
+        Player computer = new Player();
 
         Game game = new Game();
 
@@ -19,34 +20,30 @@ namespace cardwar
             p.StartGame();            
         }
 
-        public List<Card> GetNewDeck()
-        {
-            
-            var cards = deck.CreateDeck();
-            foreach(var card in cards)
-            {
-                Console.WriteLine("the {0} of {1}", card.Rank, card.Suit);
-            }
-            return cards;
-        }
-
         public Player GetNewPlayer(string name)
         {
+            Deck deck = new Deck();
             var current_deck = deck.CreateDeck();
-            var current_player = player.CreateNewPlayer(name, current_deck);
-            
+            //var current_player = player.CreateNewPlayer(name, current_deck);
             player.Name = name;
             player.Deck = current_deck;
-            
             return player;
         }
 
+        public Player StartComputer()
+        {
+            Deck deck = new Deck();
+            var current_deck = deck.CreateDeck();
+            //var current_computer = computer.CreateNewPlayer("Computer", current_deck);
+            computer.Name = "Computer";
+            computer.Deck = current_deck;
+            return computer;
+        }
 
         public Player StartGame()
         {
-            var computer = GetNewPlayer("Computer");
+            var computer = StartComputer();
             var player = GetNewPlayer("Joe");
-            var winning_card = game.War(player, computer);
             
             while(player.Deck.Count > 0 || computer.Deck.Count > 0)
             {
