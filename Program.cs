@@ -8,10 +8,8 @@ namespace cardwar
 {
     class Program
     {
-        //Deck deck = new Deck();
         Player player = new Player();
         Player computer = new Player();
-
         Game game = new Game();
 
         static void Main(string[] args)
@@ -24,7 +22,6 @@ namespace cardwar
         {
             Deck deck = new Deck();
             var current_deck = deck.CreateDeck();
-            //var current_player = player.CreateNewPlayer(name, current_deck);
             player.Name = name;
             player.Deck = current_deck;
             return player;
@@ -34,7 +31,6 @@ namespace cardwar
         {
             Deck deck = new Deck();
             var current_deck = deck.CreateDeck();
-            //var current_computer = computer.CreateNewPlayer("Computer", current_deck);
             computer.Name = "Computer";
             computer.Deck = current_deck;
             return computer;
